@@ -55,24 +55,24 @@ public class CheckOut extends BasePage {
 
     //2
     public void seleccionOpcionEnvioDomicioOp2(){
-        waitForSeconds(20);
+        waitForSeconds(32);
         click(radioBtnSegundaOpcion);
         scrollPageUpDown(0,1);
 
     }
     public void seleccionOpcionSucursalOp4(){
-        waitForSeconds(20);
+        waitForSeconds(32);
         click(radioBtnCuartaOpcion);
         scrollPageUpDown(0,1);
     }
 
     //3
     public void seleccionOpcionSucursalOp1(){
-        waitForSeconds(20);
+        waitForSeconds(32);
         click(radioBtnPrimeraOpcion);
     }
     public void seleccionOpcionEnvioDomicioOp3(){
-        waitForSeconds(20);
+        waitForSeconds(32);
         click(radioBtnTerceraOpcion);
     }
     //4
