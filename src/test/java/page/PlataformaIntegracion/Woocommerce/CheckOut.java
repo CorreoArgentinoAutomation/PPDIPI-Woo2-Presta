@@ -63,7 +63,7 @@ public class CheckOut extends BasePage {
     public void seleccionOpcionSucursalOp4(){
         waitForSeconds(32);
         click(radioBtnCuartaOpcion);
-        scrollPageUpDown(0,1);
+        
     }
 
     //3
